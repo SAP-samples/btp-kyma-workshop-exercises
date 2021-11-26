@@ -46,14 +46,14 @@ metadata:
      name: business-partners
 spec:
   minReplicas: 1
-  maxReplicas: 5
+  maxReplicas: 1
   resources:
     requests:
-      cpu: 100m
-      memory: 128Mi
+      cpu: 25m
+      memory: 32Mi
     limits:
-      cpu: 200m
-      memory: 256Mi
+      cpu: 50m
+      memory: 64Mi
   buildResources:
     requests:
       cpu: 200m
@@ -218,14 +218,14 @@ metadata:
      name: business-partners
 spec:
   minReplicas: 1
-  maxReplicas: 5
+  maxReplicas: 1
   resources:
     requests:
-      cpu: 100m
-      memory: 128Mi
+      cpu: 25m
+      memory: 32Mi
     limits:
-      cpu: 200m
-      memory: 256Mi
+      cpu: 50m
+      memory: 64Mi
   buildResources:
     requests:
       cpu: 200m
